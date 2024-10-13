@@ -14,7 +14,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/film")
 public class FilmController {
-    private FilmRepository filmRepository;
+    private final FilmRepository filmRepository;
 
     public FilmController(FilmRepository filmRepository) {
         this.filmRepository = filmRepository;

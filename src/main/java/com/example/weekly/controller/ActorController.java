@@ -13,7 +13,7 @@ import java.util.Optional;
 @RestController()
 @RequestMapping("/api/actor")
 public class ActorController {
-    private ActorRepository actorRepository;
+    private final ActorRepository actorRepository;
 
     @Autowired
     public ActorController(ActorRepository actorRepository) {
