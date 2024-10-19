@@ -1,0 +1,39 @@
+<configuration>
+
+    <!-- Console appender: Hiển thị log ra console -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File appender: Ghi log vào file với xoay vòng theo ngày và giới hạn kích thước -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- Đường dẫn tới file log -->
+        <file>logs/app.log</file>
+
+        <!-- Chính sách xoay vòng log dựa trên thời gian và kích thước -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Tên file log có chứa ngày -->
+            <fileNamePattern>logs/app-%d{yyyy-MM-dd}.log</fileNamePattern>
+
+            <!-- Giới hạn kích thước mỗi file log là 10MB -->
+            <maxFileSize>10MB</maxFileSize>
+
+            <!-- Giữ lại log trong 30 ngày -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+
+        <!-- Mẫu format cho log file -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Gốc của logger: Mức log là INFO, và ghi ra cả console lẫn file -->
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>

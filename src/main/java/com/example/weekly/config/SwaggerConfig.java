@@ -18,9 +18,8 @@ public class SwaggerConfig {
     @Bean
     public GroupedOpenApi groupedOpenApi() {
         return GroupedOpenApi.builder()
-                .group("weekly")
+                .group("Weekly")
                 .packagesToScan("com.example.weekly.controller")
                 .build();
     }
-
 }

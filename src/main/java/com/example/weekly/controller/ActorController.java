@@ -2,6 +2,7 @@ package com.example.weekly.controller;
 
 import com.example.weekly.model.actor.entity.Actor;
 import com.example.weekly.repository.ActorRepository;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +13,7 @@ import java.util.Optional;
 
 @RestController()
 @RequestMapping("/api/actor")
+@Tag(name = "Actor Controller")
 public class ActorController {
     private final ActorRepository actorRepository;
 
