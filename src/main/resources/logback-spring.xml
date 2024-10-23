@@ -30,10 +30,23 @@
         </encoder>
     </appender>
 
+    <appender name="JDBC" class="ch.qos.logback.classic.db.JdbcAppender">
+        <connectionSource class="ch.qos.logback.classic.db.BasicDataSource">
+            <driverClass>com.mysql.cj.jdbc.Driver</driverClass>
+            <url>jdbc:mysql://localhost:3306/sakila</url>
+            <user>root</user>
+            <password>123456</password>
+        </connectionSource>
+        <sql>
+            INSERT INTO logs (timestamp, level, logger, message, thread) VALUES (?, ?, ?, ?, ?)
+        </sql>
+    </appender>
+
     <!-- Gốc của logger: Mức log là INFO, và ghi ra cả console lẫn file -->
     <root level="info">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
+        <appender-ref ref="JDBC" />
     </root>
 
 </configuration>

@@ -74,10 +74,7 @@
 			<version>4.0.1</version>  <!-- hoặc phiên bản mới hơn -->
 			<scope>provided</scope>
 		</dependency>
-
-
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>

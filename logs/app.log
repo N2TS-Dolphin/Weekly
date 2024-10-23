@@ -2607,3 +2607,109 @@ java.lang.IllegalStateException: getOutputStream() has already been called for t
 2024-10-23 09:46:51 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-10-23 09:46:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-10-23 09:46:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-23 10:17:34 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-10-23 10:17:34 INFO  c.example.weekly.WeeklyApplication - Starting WeeklyApplication using Java 21.0.4 with PID 24096 (C:\Users\sonsu\IdeaProjects\Weekly\target\classes started by Dolphin in C:\Users\sonsu\IdeaProjects\Weekly)
+2024-10-23 10:17:34 INFO  c.example.weekly.WeeklyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-23 10:17:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-23 10:17:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2024-10-23 10:17:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-23 10:17:35 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-23 10:17:35 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 10:17:35 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-23 10:17:35 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 10:17:35 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 855 ms
+2024-10-23 10:17:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-23 10:17:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@597a7afa
+2024-10-23 10:17:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-23 10:17:35 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-23 10:17:35 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-23 10:17:35 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-23 10:17:36 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-23 10:17:36 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-23 10:17:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-23 10:17:36 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-23 10:17:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-23 10:17:37 INFO  c.example.weekly.WeeklyApplication - Started WeeklyApplication in 2.878 seconds (process running for 3.25)
+2024-10-23 10:17:37 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-23 10:17:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-23 10:17:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-23 10:17:40 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-10-23 10:17:40 INFO  c.example.weekly.WeeklyApplication - Starting WeeklyApplication using Java 21.0.4 with PID 14584 (C:\Users\sonsu\IdeaProjects\Weekly\target\classes started by Dolphin in C:\Users\sonsu\IdeaProjects\Weekly)
+2024-10-23 10:17:40 INFO  c.example.weekly.WeeklyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-23 10:17:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-23 10:17:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2024-10-23 10:17:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-23 10:17:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-23 10:17:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 10:17:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-23 10:17:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 10:17:41 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 846 ms
+2024-10-23 10:17:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-23 10:17:41 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29dcdd1c
+2024-10-23 10:17:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-23 10:17:41 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-23 10:17:42 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-23 10:17:42 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-23 10:17:42 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-23 10:17:42 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-23 10:17:42 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-23 10:17:43 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-23 10:17:43 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-23 10:17:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-23 10:17:43 INFO  c.example.weekly.WeeklyApplication - Started WeeklyApplication in 2.802 seconds (process running for 3.181)
+2024-10-23 10:17:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 10:17:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 10:17:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Request URI: /api/film
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Request Method: GET
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Header content-type: application/json
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Header user-agent: PostmanRuntime/7.42.0
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Header accept: */*
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Header postman-token: 2cbca092-c562-41c8-acf9-901be7e606d2
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Header host: localhost:8080
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Header accept-encoding: gzip, deflate, br
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Header connection: keep-alive
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Header content-length: 215
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Request Body: {
+    "title": "123",
+    "description": "A mafia crime film.",
+    "releaseYear": 1972,
+    "rentalDuration": 7,
+    "rentalRate": 2.99,
+    "length": 175,
+    "replacementCost": 19.99,
+    "rating": "R"
+}
+2024-10-23 10:17:48 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Response Status: 405
+2024-10-23 10:17:48 INFO  com.example.weekly.LoggingFilter - Response Body: 
+2024-10-23 10:24:27 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-23 10:24:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-23 10:24:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-23 10:56:32 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-10-23 10:56:32 INFO  c.example.weekly.WeeklyApplication - Starting WeeklyApplication using Java 21.0.4 with PID 16288 (C:\Users\sonsu\IdeaProjects\Weekly\target\classes started by Dolphin in C:\Users\sonsu\IdeaProjects\Weekly)
+2024-10-23 10:56:32 INFO  c.example.weekly.WeeklyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-23 10:56:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-23 10:56:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2024-10-23 10:56:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-23 10:56:33 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-23 10:56:33 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 10:56:33 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-23 10:56:33 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 10:56:33 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 841 ms
+2024-10-23 10:56:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-23 10:56:34 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@748904e8
+2024-10-23 10:56:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-23 10:56:34 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-23 10:56:34 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-23 10:56:34 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-23 10:56:34 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-23 10:56:34 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-23 10:56:34 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-23 10:56:35 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-23 10:56:35 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-23 10:56:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-23 10:56:35 INFO  c.example.weekly.WeeklyApplication - Started WeeklyApplication in 2.951 seconds (process running for 3.364)
+2024-10-23 10:56:50 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-23 10:56:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-23 10:56:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
